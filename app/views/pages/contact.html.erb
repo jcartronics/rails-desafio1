@@ -1,2 +1,25 @@
 <h1>Contacto</h1>
-<p>Aqui estan mis datos de contacto</p>
+
+<p>Para contactarme ingresa tus datos en el siguiente formulario:</p>
+
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form action="/enviar_contacto" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje:</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
