@@ -27,3 +27,8 @@ Asegúrese de realizar las pruebas oportunas.
 ## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Heroku
+
+Link al proyecto en Heroku:
+[https://calm-taiga-05538-cb5b6c44f120.herokuapp.com/](https://calm-taiga-05538-cb5b6c44f120.herokuapp.com/)
